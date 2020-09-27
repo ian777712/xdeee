@@ -107,8 +107,8 @@ bot.on('message', async message => {
 
         let levelembed = new MessageEmbed()
             .setColor('GREEN')
-            .setDescription(`**${message.author}, Felicidades has subido de nivel <:Maricon:756677996659867739> ${levelfetch}**`)
-            .setFooter(`${prefix}disablexp To Disable Level Up Messages`)
+            .setDescription(`**${message.author}, Felicidades has subido de nivel ${levelfetch} <:Maricon:756677996659867739>**`)
+            .setFooter(``)
         message.channel.send(levelembed);
     };
 });
