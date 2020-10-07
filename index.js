@@ -7,6 +7,7 @@ const fs = require("fs");
 const db = require('quick.db');
 const jimp = require('jimp');
 
+
 bot.phone = new Collection();
 bot.commands = new Collection();
 bot.aliases = new Collection();
